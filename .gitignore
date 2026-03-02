@@ -23,3 +23,9 @@ app/miappdevops.tar.gz
 # Terraform providers
 .terraform/
 *.bak
+
+# Archivos tar.gz (imágenes Docker)
+*.tar.gz
+
+# Terraform providers
+.terraform/providers/
