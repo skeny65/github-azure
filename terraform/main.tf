@@ -4,6 +4,7 @@ resource "azurerm_resource_group" "main" {
     location      = var.location
 }
 
+/*
 # Virtual Network
 resource "azurerm_virtual_network" "main" {
     name                = "vnet-terraform"
@@ -162,3 +163,5 @@ resource "azurerm_linux_virtual_machine" "main" {
         version      = "latest"
     }
 }
+
+*/
